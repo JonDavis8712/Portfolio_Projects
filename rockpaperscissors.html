@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rockpaperscissors.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="Game" style="display: flex; justify-content:space-evenly; margin-left: auto; margin-right: auto; text-align: center;"> 
+        <button class='btn' id="Rock">
+    <img src="https://www.seekpng.com/png/full/0-8136_stone-images-rock-free-rock-transparent-background.png" width=300 height=300, alt="rock" >
+    <span id="counter1" style="font-size:40px; font-family:Arial, Helvetica, sans-serif; font-weight: bolder;">0</span>
+    </button>
+
+       <button class='btn' id="Paper">
+    <img src="https://www.seekpng.com/png/full/81-819190_paper-airplane-png-real-paper-plane-png.png" width=300 height=300, alt="paper" >
+    <span id="counter2" style="font-size:40px; font-family:Arial, Helvetica, sans-serif; font-weight: bolder;">0</span>
+    </button>
+
+        <button class='btn' id="Scissors">
+    <img src="https://www.seekpng.com/png/full/17-175104_free-png-scissors-png-images-transparent-scissors-png.png" width=300 height=300, alt='scissors' >
+    <span id="counter3" style="font-size:40px; font-family:Arial, Helvetica, sans-serif; font-weight: bolder;">0</span>
+    </button>
+               
+    </div>
+
+    <div class="scoreboard">
+        <div class="scoreboard__name scoreboard__name--PLAYER">PLAYER</div>
+        <div class="scoreboard__name scoreboard__name--TIE">TIE</div>
+        <div class="scoreboard__name scoreboard__name--COMPUTER">COMPUTER</div>
+        <span id="playerScores" class="scoreboard__score">0</span>
+        <span id="tieScores" class="scoreboard__score">0</span>
+        <span id="computerScores" class="scoreboard__score">0</span>
+    </div>
+
+
+
+
+</div>
+  
+
+    <div id="clearScore" style="display: flex; justify-content: center; padding-top: 50px;" class="Clear">
+        <button class="clearBtn">CLEAR GAME</button>
+    </div>
+
+    
+    <script src="rockpaperscissors.js"></script>
+
+</body>
+</html>

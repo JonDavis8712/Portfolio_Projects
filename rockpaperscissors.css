@@ -1,0 +1,61 @@
+.btn:hover{
+    border: navy 5px solid;
+    background-color: lightblue;
+    color:black;
+}
+
+.clearBtn:hover{
+    border: limegreen 8px solid;
+    border-radius: 9px;
+    background-color:lightgreen.05;
+    color:green;
+}
+
+.clearBtn{
+    font-size: 50px;
+    background-color: lightblue;
+    color:black;
+    font-weight: bolder;
+    border: black 4px solid;
+}
+
+.scoreboard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width:500px;
+    font-family:'quicksand', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.scoreboard__name,
+.scoreboard__score{
+    padding: 10px;
+    text-align: center;
+}
+
+.scoreboard__name{
+    font-weight: bold;
+    border-bottom: 1px solid lightblue;
+}
+
+.scoreboard__name--PLAYER{
+    color: teal;
+    font-size: 1.75em;
+}
+
+.scoreboard__name--COMPUTER{
+    color:blue;
+    font-size:1.75em;
+}
+
+.scoreboard__name--TIE{
+    color:rgb(0, 0, 0);
+    font-size:1.75em;
+}
+
+.scoreboard__score{
+    font-size: 4em;
+}
+
