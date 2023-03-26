@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: left;
+    padding-left: 100px;
+    align-content: center;
+    margin:40px;
+    flex-direction: column;
+    justify-content: center;
+    background-color:aquamarine;
+    background-image: url('..//Downloads/little-girl-with-dad-dressed-super-heroes-happy-loving-family.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 130vh;
+  
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 100px;
+    margin:0;
+    padding:10px;
+    color: antiquewhite;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+
+p{
+    color: antiquewhite;
+    font-size: 20px;
+    -webkit-text-stroke-width: .05px;
+    -webkit-text-stroke-color: black;
+}
+
+.heroImage{
+   align-self: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
