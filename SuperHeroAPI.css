@@ -3,7 +3,7 @@ body {
     align-items: left;
     padding-left: 100px;
     align-content: center;
-    margin:40px;
+    margin:10px 10px 10px 10px;
     flex-direction: column;
     justify-content: center;
     background-color:rgba(22, 148, 252, 0.753);
@@ -12,6 +12,33 @@ body {
     background-size: cover;
     height: 150vh;
   
+}
+
+#newhero{
+    background-color: rgba(0, 0, 255, 0.116);
+    border-width: 5px; 
+    border-radius: 15px; color: antiquewhite; 
+    width: fit-content; 
+    font-size: 25px;
+}
+
+#newhero:hover{
+        border: rgb(0, 253, 211) 5px solid;
+        background-color: turquoise, 1;
+        color: lightblue;
+}
+
+#SearchButton{
+    background-color: rgba(0, 0, 255, 0.116);
+    border-width: 5px; 
+    border-radius: 15px; color: antiquewhite; 
+    width: fit-content; 
+    font-size: 25px;
+}
+#SearchButton:hover{
+    border: rgb(0, 253, 211) 5px solid;
+    background-color: turquoise, 1;
+    color: lightblue;
 }
 
 h2{
