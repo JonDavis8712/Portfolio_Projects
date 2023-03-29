@@ -55,6 +55,19 @@ const randomHero = () => {
     return Math.floor(Math.random() * numberOfHeroes) + 1
 }
 
-newherobutton.onclick = () => getSuperHero(randomHero())
+
+newherobutton.onclick = () => getSuperHero(randomHero(), clearSearch())
 
 searchButton.onclick = () => getSearchSuperHero(searchInput.value)
+
+let input = document.getElementById("searchInput");
+input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        searchButton.click();
+    }
+});
+
+clearSearch = () => {
+    document.getElementById("searchInput").value = ''
+}

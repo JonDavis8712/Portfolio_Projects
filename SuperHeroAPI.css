@@ -49,8 +49,8 @@ h2{
     color: antiquewhite;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-    -webkit-animation: glow1 1s ease-in-out infinite alternate;
-    animation: glow1 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2718fa, 0 0 40px #2718fa, 0 0 50px
+        #00fafa, 0 0 60px #5fb8f3, 0 0 70px #5fb8f3;
 }
 
 
@@ -59,32 +59,10 @@ p{
     font-size: 20px;
     -webkit-text-stroke-width: .05px;
     -webkit-text-stroke-color: black;
-    -webkit-animation: glow2 30s ease-in-out infinite alternate;
-    animation: glow2 30s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2718fa, 0 0 40px #2718fa, 0 0 50px
+        #00fafa, 0 0 60px #5fb8f3, 0 0 70px #5fb8f3;
 }
 
 .heroImage{
    align-self: center;
-}
-
-@keyframes glow1 {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2718fa, 0 0 40px #2718fa, 0 0 50px
-        #00fafa, 0 0 60px #5fb8f3, 0 0 70px #5fb8f3;
-    }
-    to {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff,  0 0 30px #b4d1fd, 0 0 40px #b4d1fd, 0 0 50px
-        #b4d1fd, 0 0 70px #b4d1fd, 0 0 80px #b4d1fd;
-    }
-}
-
-@keyframes glow2 {
-    from {
-        text-shadow: 0 0 10px #ff1b1b, 0 0 20px #fff, 0 0 30px #ff1b1b, 0 0 40px #ff1b1b, 0 0 50px
-        #00fafa, 0 0 60px #5fb8f3, 0 0 70px #5fb8f3;
-    }
-    to {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff,  0 0 30px #b4d1fd, 0 0 40px #b4d1fd, 0 0 50px
-        #b4d1fd, 0 0 70px #b4d1fd, 0 0 80px #b4d1fd;
-    }
 }
