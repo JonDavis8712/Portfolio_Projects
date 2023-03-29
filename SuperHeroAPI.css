@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color:rgba(22, 148, 252, 0.753);
-    background-image: url(..//Portfolio_Projects/little-girl-with-dad-dressed-super-heroes-happy-loving-family.jpg);
+    background-image: url(..//project-images/little-girl-with-dad-dressed-super-heroes-happy-loving-family.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     height: 150vh;
